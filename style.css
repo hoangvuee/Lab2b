@@ -1,0 +1,450 @@
+*{
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.container .header{
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+.header .headerleft{
+    float: left;
+    width: 50%;
+    margin: 0;
+    height: 100px;
+   
+    text-align: center;
+    padding: 0;
+}
+.header .headerright{
+    float: left;
+    width: 50%;
+    margin: 0;
+    height: 100px;
+    
+    padding: 0;
+    text-align: right;
+    
+}
+.headerleft .logo{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 0;
+    
+    text-align: center;
+}
+.logo .p{
+font-size: 30px;
+color: rgba(15, 14, 14, 0.674);
+margin-bottom: 0;
+
+}
+.logo .p1{
+    margin: 0;
+    font-size: 15px;
+    color: rgb(128, 128, 128);
+}
+.headerright .buttonticker{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background-color: #f77825;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 25px;
+    margin-right: 250px;
+    text-align: center;
+
+}
+.buttonticker .p{
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    margin-top: 7px;
+}
+.header1{
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+
+    margin: 0;
+}
+.header1 .header1left{
+    margin: 0;
+    width: 50%;
+    float: left;
+    height: 100px;
+    text-align: center;
+    padding: 0;
+   
+
+}
+
+.header1 .header1left .linknav{
+    display: inline-block;
+    margin: 0;
+    width: 500px;
+    height: 100px;
+    
+    text-align: center;
+    padding-top: 20px;
+    
+    
+}
+.linknav a{
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 18px;
+    color: rgb(96, 96, 96);
+}
+.header1 .header1right{
+    margin: 0;
+    width: 50%;
+    float: left;
+    height: 100px;
+    text-align: center;
+    padding: 0;
+    
+    text-align: right;
+}
+.header1right .linknavright{
+    display: inline-block;
+    margin: 0;
+    width: 200px;
+    height: 100px;
+    
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 25%;
+
+}
+.linknavright i{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 18px;
+    margin-right: 18px;
+    color: rgb(96, 96, 96);
+}
+.content{
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 700px;
+    padding: auto;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+.imgcontent{
+    width: 70%;
+    height: 500px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 100px;
+    padding: 0;
+    background-image: url(/images/main/image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    transition-duration: 0.5s;
+    text-align: right;
+}
+.imgcontent .buttonpre{
+    
+    border: 5px solid rgba(255, 255, 255,0.5);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0px;
+    float: left;
+    margin: 0;margin-top: 220px;
+}
+.imgcontent .buttonnext{
+    
+    border: 5px solid rgba(255, 255, 255,0.5);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0px;
+
+    float: right;
+    margin: 0;
+    margin-top: 220px;
+}
+.buttonpre .span{
+    color: rgba(255, 255, 255,0.5);
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: -10px;
+    padding: 20px;
+   
+
+    
+}
+.buttonnext .span{
+    color: rgba(255, 255, 255,0.5);
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.imgcontent .circlechangeimg{
+    display: inline-block;
+
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    
+    background-color: black;
+    padding: auto;
+    margin-right: 10px ;
+    margin-top: 10px;
+}
+.imgcontent .textcontent{
+    clear: both;
+    
+   margin-top: 360px;
+    width: 70%;
+    height: 110px;
+   text-align: left;
+   padding: 0;
+   margin-left: 10px;
+   margin-bottom: 0;
+    
+}
+.textcontent .h3{
+    font-size: 40px;
+    margin: 0;
+    color: white;
+}
+.contentinformation{
+    margin: 0;
+    width: 100%;
+    height: 650px;
+    background-color: white;
+   
+    text-align: center;
+
+   
+}
+.contentinformation .infor {
+    display: inline-block;
+    width: 20%;
+    height: 650px;
+    vertical-align: top; /* Đảm bảo các phần tử thẳng hàng ở phía trên */
+    margin: 0;
+   
+}
+.contentinformation .infor .avatar{
+    margin: 80px;
+    width: 70%;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url(images/13_gym/1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 10px;
+}
+.contentinformation .infor .avatar1{
+    margin: 80px;
+    width: 70%;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url(images/13_gym/2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 10px;
+}
+.contentinformation .infor .avatar2{
+    margin: 80px;
+    width: 70%;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url(images/13_gym/3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 10px;
+}
+.infor .inforavatar{
+    margin: 0;
+    width: 100%;
+    height: 50px;
+  
+    
+}
+.infor .inforavatar1{
+    margin: 0;
+    width: 100%;
+    height: 50px;
+
+    
+}
+.infor .buttonjoin{
+    width: 200px;
+    height: 50px;
+    background-color: #f77825;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    text-align: center;
+    margin-top: 0px;
+}
+.contentprice{
+    margin: 0;
+    width: 100%;
+    height: 600px;
+    background-color:#f3f3f3 ;
+    border: 1px solid red;
+    padding: 0;
+    text-align: center;
+}
+.contentprice .tableprice{
+    width: 20%;
+    height: 500px;
+    display: inline-block;
+    background-color: white;
+    margin: 15px;
+    padding: auto;
+    border: 2px solid rgba(159, 157, 157, 0.575);
+    vertical-align: top; 
+}
+.tableprice .p{
+    font-size: 60px;
+    color: aqua;
+    display: block;
+font-weight: 40px;
+    margin: 0;
+    margin-top: 20px;
+
+
+}
+.tableprice .p1{
+    color: gray;
+    margin: 0 5px;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.tableprice .p2{
+    color: rgb(165, 165, 165);
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.tableprice .buttonBuy{
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: auto;
+    display: inline-block;
+    padding: 30px;
+   
+}
+.tableprice #buttonBuy1{
+    background-color: rgb(232, 122, 48);
+}
+.contentrequest{
+    margin: 0;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+.contentrequest .getinfor{
+    margin-top: 80px;
+    display: inline-block;
+    vertical-align: top;
+    width:25%;
+    height: 450px;
+    border: 2px solid rgba(138, 135, 135, 0.629);
+    padding: auto;
+    background-color: black;
+}
+.getinfor .p{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+
+}
+.getinfor .line{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(28, 124, 198);
+    display: inline-block;
+    margin: 0;
+}
+.getinfor .p1{
+    font-size: 22px;
+    color: gray;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+form{
+    margin: 0;
+    padding: 0;
+}
+input{
+    width: 95%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.getinfor .getbutton{
+    width: 95%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(28, 124, 198);
+    border: 1px solid rgb(28, 124, 198) ;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    color: white;
+    
+}
+footer{
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    padding: auto;
+}
+footer .left{
+    padding-top: 45px;
+    width: 50%;
+    margin: 0;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    
+}
+footer .right{
+    padding-top: 45px;
+    width: 50%;
+    margin: 0;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+     color: white;
+     
+}
+footer .right i{
+    margin: 0 10px;
+}
