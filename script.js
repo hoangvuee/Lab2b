@@ -1,9 +1,9 @@
 
 // Mảng chứa đường dẫn đến các hình ảnh
 const images = [
-    '/images/main/image-1.jpg',
-    '/images/main/image-2.jpg',
-    '/images/main/image-3.jpg'
+    'images/main/image-1.jpg',
+    'images/main/image-2.jpg',
+    'images/main/image-3.jpg'
 ];
 
 // Vị trí hiện tại của ảnh
